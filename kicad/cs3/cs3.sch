@@ -1,0 +1,720 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "7-Drive"
+Date "2023-06-15"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:D D2
+U 1 1 6482D160
+P 2050 3200
+F 0 "D2" H 2050 3417 50  0000 C CNN
+F 1 "1N4148" H 2050 3326 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2050 3200 50  0001 C CNN
+F 3 "~" H 2050 3200 50  0001 C CNN
+	1    2050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 6482D66D
+P 2200 4450
+F 0 "D1" H 2200 4667 50  0000 C CNN
+F 1 "1N4148" H 2200 4576 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2200 4450 50  0001 C CNN
+F 3 "~" H 2200 4450 50  0001 C CNN
+	1    2200 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 6482E3D4
+P 11650 4900
+F 0 "C3" H 11765 4946 50  0000 L CNN
+F 1 "100 nF" H 11765 4855 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 11688 4750 50  0001 C CNN
+F 3 "~" H 11650 4900 50  0001 C CNN
+	1    11650 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split RN1
+U 1 1 64831227
+P 6350 4250
+F 0 "RN1" V 6150 4150 50  0000 L CNN
+F 1 "220R" V 6250 4150 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 6270 4250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6350 4250 50  0001 C CNN
+	1    6350 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split RN1
+U 2 1 648317EE
+P 3300 4250
+F 0 "RN1" V 3100 4150 50  0000 L CNN
+F 1 "220R" V 3200 4150 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 3220 4250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3300 4250 50  0001 C CNN
+	2    3300 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split RN1
+U 4 1 6483299D
+P 6100 4650
+F 0 "RN1" V 6200 4550 50  0000 L CNN
+F 1 "220R" V 6300 4550 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 6020 4650 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6100 4650 50  0001 C CNN
+	4    6100 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split RN2
+U 1 1 64835C68
+P 5950 4350
+F 0 "RN2" V 5700 4250 50  0000 L CNN
+F 1 "220R" V 5800 4250 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 5870 4350 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5950 4350 50  0001 C CNN
+	1    5950 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split RN2
+U 2 1 64835F8F
+P 6900 4550
+F 0 "RN2" V 6800 4450 50  0000 L CNN
+F 1 "220R" V 6700 4450 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 6820 4550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6900 4550 50  0001 C CNN
+	2    6900 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split RN2
+U 3 1 64836AEF
+P 3700 4650
+F 0 "RN2" V 3800 4550 50  0000 L CNN
+F 1 "220R" V 3900 4550 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 3620 4650 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3700 4650 50  0001 C CNN
+	3    3700 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split RN2
+U 4 1 648370D4
+P 2900 4550
+F 0 "RN2" V 3000 4450 50  0000 L CNN
+F 1 "220R" V 3100 4450 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 2820 4550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2900 4550 50  0001 C CNN
+	4    2900 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split RN3
+U 1 1 6483891B
+P 6350 3000
+F 0 "RN3" V 6150 2900 50  0000 L CNN
+F 1 "220R" V 6250 2900 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 6270 3000 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6350 3000 50  0001 C CNN
+	1    6350 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split RN3
+U 2 1 64838B39
+P 3200 3000
+F 0 "RN3" V 3000 2900 50  0000 L CNN
+F 1 "220R" V 3100 2900 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 3120 3000 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3200 3000 50  0001 C CNN
+	2    3200 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split RN3
+U 3 1 64838E9F
+P 3700 3100
+F 0 "RN3" V 3450 3000 50  0000 L CNN
+F 1 "220R" V 3550 3000 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 3620 3100 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3700 3100 50  0001 C CNN
+	3    3700 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split RN3
+U 4 1 648394FC
+P 6200 3400
+F 0 "RN3" V 6300 3300 50  0000 L CNN
+F 1 "220R" V 6400 3300 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 6120 3400 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6200 3400 50  0001 C CNN
+	4    6200 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split RN4
+U 1 1 6483A9E9
+P 6050 3100
+F 0 "RN4" V 5800 3000 50  0000 L CNN
+F 1 "220R" V 5900 3000 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 5970 3100 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6050 3100 50  0001 C CNN
+	1    6050 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split RN4
+U 2 1 6483AC0F
+P 6900 3300
+F 0 "RN4" V 6700 3200 50  0000 L CNN
+F 1 "220R" V 6600 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 6820 3300 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6900 3300 50  0001 C CNN
+	2    6900 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split RN4
+U 3 1 6483B19B
+P 3700 3400
+F 0 "RN4" H 3788 3446 50  0000 L CNN
+F 1 "220R" H 3788 3355 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 3620 3400 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3700 3400 50  0001 C CNN
+	3    3700 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split RN4
+U 4 1 6483B4F5
+P 2800 3300
+F 0 "RN4" V 2900 3200 50  0000 L CNN
+F 1 "220R" V 3000 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 2720 3300 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2800 3300 50  0001 C CNN
+	4    2800 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS00 U3
+U 1 1 6483C25F
+P 11600 5750
+F 0 "U3" H 11600 6075 50  0000 C CNN
+F 1 "74LS00" H 11600 5984 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 11600 5750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 11600 5750 50  0001 C CNN
+	1    11600 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U3
+U 2 1 6483CF14
+P 10650 6800
+F 0 "U3" H 10650 7125 50  0000 C CNN
+F 1 "74LS00" H 10650 7034 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 10650 6800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 10650 6800 50  0001 C CNN
+	2    10650 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U3
+U 5 1 6483FE4B
+P 3100 7800
+F 0 "U3" H 3330 7846 50  0000 L CNN
+F 1 "74LS00" H 3330 7755 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3100 7800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 3100 7800 50  0001 C CNN
+	5    3100 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys:CD40110BE U4
+U 1 1 64844B88
+P 12350 1350
+F 0 "U4" H 13250 1615 50  0000 C CNN
+F 1 "CD40110BE" H 13250 1524 50  0000 C CNN
+F 2 "SamacSys_Parts:DIP794W53P254L1930H508Q16N" H 14000 1450 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/cd40110b" H 14000 1350 50  0001 L CNN
+F 4 "Texas Instruments CD40110BE, 5-stage, Decade, Counter, Up/Down Counter, Bi-Directional, 3  18 V, 16-Pin PDIP" H 14000 1250 50  0001 L CNN "Description"
+F 5 "5.08" H 14000 1150 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 14000 1050 50  0001 L CNN "Manufacturer_Name"
+F 7 "CD40110BE" H 14000 950 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-CD40110BE" H 14000 850 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD40110BE?qs=MXJmdiNpZe8SH2LrT%2Frljg%3D%3D" H 14000 750 50  0001 L CNN "Mouser Price/Stock"
+F 10 "CD40110BE" H 14000 650 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/cd40110be/texas-instruments?region=nac" H 14000 550 50  0001 L CNN "Arrow Price/Stock"
+	1    12350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys:CD40110BE U5
+U 1 1 64846426
+P 12350 3050
+F 0 "U5" H 13250 3315 50  0000 C CNN
+F 1 "CD40110BE" H 13250 3224 50  0000 C CNN
+F 2 "SamacSys_Parts:DIP794W53P254L1930H508Q16N" H 14000 3150 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/cd40110b" H 14000 3050 50  0001 L CNN
+F 4 "Texas Instruments CD40110BE, 5-stage, Decade, Counter, Up/Down Counter, Bi-Directional, 3  18 V, 16-Pin PDIP" H 14000 2950 50  0001 L CNN "Description"
+F 5 "5.08" H 14000 2850 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 14000 2750 50  0001 L CNN "Manufacturer_Name"
+F 7 "CD40110BE" H 14000 2650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-CD40110BE" H 14000 2550 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD40110BE?qs=MXJmdiNpZe8SH2LrT%2Frljg%3D%3D" H 14000 2450 50  0001 L CNN "Mouser Price/Stock"
+F 10 "CD40110BE" H 14000 2350 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/cd40110be/texas-instruments?region=nac" H 14000 2250 50  0001 L CNN "Arrow Price/Stock"
+	1    12350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x18_Male J5
+U 1 1 648511B3
+P 5900 6450
+F 0 "J5" H 6008 7431 50  0000 C CNN
+F 1 "Conn_01x18_Male" H 6008 7340 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 5900 6450 50  0001 C CNN
+F 3 "~" H 5900 6450 50  0001 C CNN
+	1    5900 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 64881DF1
+P 9900 5550
+F 0 "SW1" H 9900 5835 50  0000 C CNN
+F 1 "SW_SPDT" H 9900 5744 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Slide_1P2T_SPDT" H 9900 5550 50  0001 C CNN
+F 3 "~" H 9900 5550 50  0001 C CNN
+	1    9900 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys:TDSO3160-L DS1
+U 1 1 6485E208
+P 4050 4250
+F 0 "DS1" H 4850 4515 50  0000 C CNN
+F 1 "TDSO3160-L" H 4850 4424 50  0000 C CNN
+F 2 "SamacSys_Parts:TDSO3160L" H 5500 4350 50  0001 L CNN
+F 3 "https://www.vishay.com/docs/83125/tdsx31xx.pdf" H 5500 4250 50  0001 L CNN
+F 4 "Display Modules - LED Character and Numeric Orange-Red 7-Segment 1 Character Common Cathode 2V 20mA 0.500\" H x 0.372\" W x 0.252\" D (12.60mm x 9.45mm x 6.40mm) 10-DIP (0.300\", 7.62mm)" H 5500 4150 50  0001 L CNN "Description"
+F 5 "7.1" H 5500 4050 50  0001 L CNN "Height"
+F 6 "Vishay" H 5500 3950 50  0001 L CNN "Manufacturer_Name"
+F 7 "TDSO3160-L" H 5500 3850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "78-TDSO3160-L" H 5500 3750 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/TDSO3160-L?qs=1F7whG1WZO3Hg7%252BvCxggbQ%3D%3D" H 5500 3650 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 5500 3550 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 5500 3450 50  0001 L CNN "Arrow Price/Stock"
+	1    4050 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys:TDSO3160-L DS2
+U 1 1 6485F87F
+P 4050 3000
+F 0 "DS2" H 4850 3265 50  0000 C CNN
+F 1 "TDSO3160-L" H 4850 3174 50  0000 C CNN
+F 2 "SamacSys_Parts:TDSO3160L" H 5500 3100 50  0001 L CNN
+F 3 "https://www.vishay.com/docs/83125/tdsx31xx.pdf" H 5500 3000 50  0001 L CNN
+F 4 "Display Modules - LED Character and Numeric Orange-Red 7-Segment 1 Character Common Cathode 2V 20mA 0.500\" H x 0.372\" W x 0.252\" D (12.60mm x 9.45mm x 6.40mm) 10-DIP (0.300\", 7.62mm)" H 5500 2900 50  0001 L CNN "Description"
+F 5 "7.1" H 5500 2800 50  0001 L CNN "Height"
+F 6 "Vishay" H 5500 2700 50  0001 L CNN "Manufacturer_Name"
+F 7 "TDSO3160-L" H 5500 2600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "78-TDSO3160-L" H 5500 2500 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/TDSO3160-L?qs=1F7whG1WZO3Hg7%252BvCxggbQ%3D%3D" H 5500 2400 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 5500 2300 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 5500 2200 50  0001 L CNN "Arrow Price/Stock"
+	1    4050 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4250 3450 4250
+Wire Wire Line
+	3150 4250 3050 4250
+Wire Wire Line
+	4050 4350 3850 4350
+$Comp
+L Device:R_Pack04_SIP_Split RN1
+U 3 1 64831CFB
+P 3700 4350
+F 0 "RN1" V 3450 4250 50  0000 L CNN
+F 1 "220R" V 3550 4250 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 3620 4350 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3700 4350 50  0001 C CNN
+	3    3700 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 4450 2350 4450
+Wire Wire Line
+	4050 4550 3050 4550
+Text GLabel 14150 1750 2    50   Input ~ 0
+E_U4
+Text GLabel 2600 4550 0    50   Input ~ 0
+E_U4
+Wire Wire Line
+	3850 4650 4050 4650
+Wire Wire Line
+	2750 4550 2600 4550
+Text GLabel 14150 1650 2    50   Input ~ 0
+D_U4
+Text GLabel 3400 4650 0    50   Input ~ 0
+D_U4
+Wire Wire Line
+	3550 4650 3400 4650
+Wire Wire Line
+	5650 4650 5950 4650
+Text GLabel 3050 4250 0    50   Input ~ 0
+G_U4
+Text GLabel 12350 1450 0    50   Input ~ 0
+G_U4
+Wire Wire Line
+	3550 4350 3050 4350
+Text GLabel 3050 4350 0    50   Input ~ 0
+F_U4
+Text GLabel 12350 1550 0    50   Input ~ 0
+F_U4
+Wire Wire Line
+	6250 4650 6650 4650
+Wire Wire Line
+	6650 4650 6650 5950
+Wire Wire Line
+	6650 5950 6100 5950
+Wire Wire Line
+	5650 4550 6750 4550
+Text GLabel 14150 1550 2    50   Input ~ 0
+C_U4
+Text GLabel 7300 4550 2    50   Input ~ 0
+C_U4
+Wire Wire Line
+	7050 4550 7300 4550
+NoConn ~ 5650 4450
+Wire Wire Line
+	5650 4350 5800 4350
+Text GLabel 14150 1450 2    50   Input ~ 0
+B_U4
+Text GLabel 6600 4350 2    50   Input ~ 0
+B_U4
+Wire Wire Line
+	6100 4350 6600 4350
+Wire Wire Line
+	5650 4250 6200 4250
+Text GLabel 12350 1350 0    50   Input ~ 0
+A_U4
+Text GLabel 6600 4250 2    50   Input ~ 0
+A_U4
+Wire Wire Line
+	6500 4250 6600 4250
+Text GLabel 12350 3050 0    50   Input ~ 0
+A_U5
+Text GLabel 12350 3150 0    50   Input ~ 0
+G_U5
+Text GLabel 12350 3250 0    50   Input ~ 0
+F_U5
+Text GLabel 14150 3450 2    50   Input ~ 0
+E_U5
+Text GLabel 14150 3350 2    50   Input ~ 0
+D_U5
+Text GLabel 14150 3250 2    50   Input ~ 0
+C_U5
+Text GLabel 14150 3150 2    50   Input ~ 0
+B_U5
+Wire Wire Line
+	3350 3000 4050 3000
+Text GLabel 2900 3000 0    50   Input ~ 0
+G_U5
+Wire Wire Line
+	2900 3000 3050 3000
+Wire Wire Line
+	3850 3100 4050 3100
+Text GLabel 2900 3100 0    50   Input ~ 0
+F_U5
+Wire Wire Line
+	3550 3100 2900 3100
+Wire Wire Line
+	4050 3200 2200 3200
+NoConn ~ 5650 3200
+Wire Wire Line
+	2950 3300 4050 3300
+Text GLabel 2450 3300 0    50   Input ~ 0
+E_U5
+Wire Wire Line
+	2450 3300 2650 3300
+Wire Wire Line
+	4050 3400 3850 3400
+Text GLabel 3350 3400 0    50   Input ~ 0
+D_U5
+Wire Wire Line
+	3550 3400 3350 3400
+Wire Wire Line
+	5650 3400 6050 3400
+Wire Wire Line
+	6350 3400 8000 3400
+Wire Wire Line
+	8000 3400 8000 6050
+Wire Wire Line
+	8000 6050 6100 6050
+Wire Wire Line
+	5650 3300 6750 3300
+Text GLabel 7300 3300 2    50   Input ~ 0
+C_U5
+Wire Wire Line
+	7300 3300 7050 3300
+Wire Wire Line
+	5650 3100 5900 3100
+Text GLabel 6650 3100 2    50   Input ~ 0
+B_U5
+Wire Wire Line
+	6200 3100 6650 3100
+Wire Wire Line
+	5650 3000 6200 3000
+Text GLabel 6650 3000 2    50   Input ~ 0
+A_U5
+Wire Wire Line
+	6650 3000 6500 3000
+Wire Wire Line
+	10100 5650 10450 5650
+Wire Wire Line
+	10450 5650 10450 6150
+Wire Wire Line
+	10450 6150 9550 6150
+Connection ~ 10450 5650
+Wire Wire Line
+	10450 5650 11300 5650
+Wire Wire Line
+	11300 5850 11100 5850
+Wire Wire Line
+	11100 5850 11100 6800
+Wire Wire Line
+	11100 6800 10950 6800
+Wire Wire Line
+	11900 5750 12200 5750
+Wire Wire Line
+	12200 5750 12200 5050
+Wire Wire Line
+	12200 5050 11650 5050
+Wire Wire Line
+	11050 5050 11050 5450
+Wire Wire Line
+	11050 5450 10100 5450
+Connection ~ 11650 5050
+Wire Wire Line
+	11650 5050 11050 5050
+Text GLabel 11650 4750 1    50   Input ~ 0
+GND
+Wire Wire Line
+	10350 6700 10050 6700
+Wire Wire Line
+	10050 6700 10050 6900
+Wire Wire Line
+	10050 9650 7800 9650
+Wire Wire Line
+	10350 6900 10050 6900
+Connection ~ 10050 6900
+Wire Wire Line
+	10050 6900 10050 9650
+Text GLabel 3100 8550 3    50   Input ~ 0
+GND
+Wire Wire Line
+	3100 8300 3100 8400
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 64D09A9B
+P 3100 8400
+F 0 "#FLG0101" H 3100 8475 50  0001 C CNN
+F 1 "PWR_FLAG" V 3100 8528 50  0000 L CNN
+F 2 "" H 3100 8400 50  0001 C CNN
+F 3 "~" H 3100 8400 50  0001 C CNN
+	1    3100 8400
+	0    1    1    0   
+$EndComp
+Connection ~ 3100 8400
+Wire Wire Line
+	3100 8400 3100 8550
+$Comp
+L power:GND #PWR0101
+U 1 1 64D0A58D
+P 3100 8400
+F 0 "#PWR0101" H 3100 8150 50  0001 C CNN
+F 1 "GND" V 3105 8272 50  0000 R CNN
+F 2 "" H 3100 8400 50  0001 C CNN
+F 3 "" H 3100 8400 50  0001 C CNN
+	1    3100 8400
+	0    1    1    0   
+$EndComp
+Text GLabel 1900 3200 0    50   Input ~ 0
+GND
+Text GLabel 2050 4450 0    50   Input ~ 0
+GND
+Text GLabel 7800 8750 2    50   Input ~ 0
+GND
+NoConn ~ 6100 5650
+NoConn ~ 6100 5750
+Text GLabel 6100 6350 2    50   Input ~ 0
+GND
+Text GLabel 7800 8850 2    50   Input ~ 0
+GND
+Text GLabel 6100 6450 2    50   Input ~ 0
+GND
+Text GLabel 7800 9150 2    50   Input ~ 0
+GND
+Text GLabel 7800 9250 2    50   Input ~ 0
+GND
+Text GLabel 7800 9350 2    50   Input ~ 0
+GND
+$Comp
+L Connector:Conn_01x16_Male J6
+U 1 1 64D3B693
+P 7600 8850
+F 0 "J6" H 7700 9800 50  0000 C CNN
+F 1 "Conn_01x16_Male" H 7700 9700 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Horizontal" H 7600 8850 50  0001 C CNN
+F 3 "~" H 7600 8850 50  0001 C CNN
+	1    7600 8850
+	1    0    0    -1  
+$EndComp
+Text GLabel 12350 1850 0    50   Input ~ 0
+GND
+Text GLabel 12350 2050 0    50   Input ~ 0
+GND
+Text GLabel 12350 3750 0    50   Input ~ 0
+GND
+Text GLabel 12350 3550 0    50   Input ~ 0
+GND
+Text GLabel 3100 7000 1    50   Input ~ 0
+5V
+Wire Wire Line
+	3100 7000 3100 7150
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 64D5E23C
+P 3100 7150
+F 0 "#FLG0102" H 3100 7225 50  0001 C CNN
+F 1 "PWR_FLAG" V 3100 7278 50  0000 L CNN
+F 2 "" H 3100 7150 50  0001 C CNN
+F 3 "~" H 3100 7150 50  0001 C CNN
+	1    3100 7150
+	0    1    1    0   
+$EndComp
+Connection ~ 3100 7150
+Wire Wire Line
+	3100 7150 3100 7300
+$Comp
+L power:+5V #PWR0102
+U 1 1 64D5EA85
+P 3100 7150
+F 0 "#PWR0102" H 3100 7000 50  0001 C CNN
+F 1 "+5V" V 3115 7278 50  0000 L CNN
+F 2 "" H 3100 7150 50  0001 C CNN
+F 3 "" H 3100 7150 50  0001 C CNN
+	1    3100 7150
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6100 5850 2    50   Input ~ 0
+5V
+Text GLabel 7800 8250 2    50   Input ~ 0
+5V
+Text GLabel 14150 3050 2    50   Input ~ 0
+5V
+Text GLabel 14150 1350 2    50   Input ~ 0
+5V
+Wire Wire Line
+	9700 5550 8150 5550
+Wire Wire Line
+	8150 5550 8150 7350
+Wire Wire Line
+	8150 7350 6100 7350
+NoConn ~ 7800 8150
+NoConn ~ 7800 8350
+NoConn ~ 7800 8450
+Wire Wire Line
+	7800 8550 9550 8550
+Wire Wire Line
+	9550 8550 9550 6150
+Connection ~ 9550 6150
+Wire Wire Line
+	9550 6150 6100 6150
+Wire Wire Line
+	6100 6250 8700 6250
+Wire Wire Line
+	8700 6250 8700 8650
+Wire Wire Line
+	8700 8650 7800 8650
+Wire Wire Line
+	6100 6550 8900 6550
+Wire Wire Line
+	8900 6550 8900 8950
+Wire Wire Line
+	8900 8950 7800 8950
+Wire Wire Line
+	6100 6650 9050 6650
+Wire Wire Line
+	9050 6650 9050 9050
+Wire Wire Line
+	9050 9050 7800 9050
+Wire Wire Line
+	6100 6750 9200 6750
+Wire Wire Line
+	9200 6750 9200 9450
+Wire Wire Line
+	9200 9450 7800 9450
+Wire Wire Line
+	6100 6850 9350 6850
+Wire Wire Line
+	9350 6850 9350 9550
+Wire Wire Line
+	9350 9550 7800 9550
+Text GLabel 12350 3350 0    50   Input ~ 0
+TOGGLE_EN
+Text GLabel 12350 1650 0    50   Input ~ 0
+TOGGLE_EN
+Text GLabel 6100 6950 2    50   Input ~ 0
+TOGGLE_EN
+Text GLabel 12350 3450 0    50   Input ~ 0
+RESET
+Text GLabel 12350 1750 0    50   Input ~ 0
+RESET
+Text GLabel 6100 7050 2    50   Input ~ 0
+RESET
+Text GLabel 12350 3650 0    50   Input ~ 0
+CLK_DWN
+Text GLabel 6100 7150 2    50   Input ~ 0
+CLK_DWN
+Text GLabel 14150 3750 2    50   Input ~ 0
+CLK_UP
+Text GLabel 6100 7250 2    50   Input ~ 0
+CLK_UP
+Wire Wire Line
+	12350 1950 11950 1950
+Wire Wire Line
+	11950 1950 11950 2550
+Wire Wire Line
+	11950 2550 14750 2550
+Wire Wire Line
+	14750 2550 14750 3550
+Wire Wire Line
+	14750 3550 14150 3550
+Wire Wire Line
+	14150 2050 15100 2050
+Wire Wire Line
+	15100 2050 15100 3650
+Wire Wire Line
+	15100 3650 14150 3650
+NoConn ~ 14150 1850
+NoConn ~ 14150 1950
+$EndSCHEMATC

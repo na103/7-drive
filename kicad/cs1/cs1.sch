@@ -1,0 +1,257 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "7-Drive CS1"
+Date "2023-06-15"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:DB23_Female-Connector J2
+U 1 1 647B0F85
+P 8000 3300
+F 0 "J2" H 8180 3234 50  0000 L CNN
+F 1 "DB23_Female-Connector" H 8180 3143 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-23_Female_EdgeMount_P2.77mm" H 8000 3100 50  0001 C CNN
+F 3 "" H 8000 3100 50  0001 C CNN
+	1    8000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x16 J3
+U 1 1 647B652D
+P 6400 3350
+F 0 "J3" H 6480 3342 50  0000 L CNN
+F 1 "Conn_01x16" H 6480 3251 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 6400 3350 50  0001 C CNN
+F 3 "~" H 6400 3350 50  0001 C CNN
+	1    6400 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 7700 2300 0    50   Input ~ 0
+RDY
+Text GLabel 7700 2500 0    50   Input ~ 0
+DKRD
+Text GLabel 7700 2700 0    50   Input ~ 0
+GND
+Text GLabel 7700 2900 0    50   Input ~ 0
+GND
+Text GLabel 7700 3100 0    50   Input ~ 0
+GND
+Text GLabel 7700 3300 0    50   Input ~ 0
+GND
+Text GLabel 7700 3500 0    50   Input ~ 0
+GND
+Text GLabel 7700 3700 0    50   Input ~ 0
+MTRXD
+Text GLabel 7700 3900 0    50   Input ~ 0
+SEL2B
+Text GLabel 7700 4100 0    50   Input ~ 0
+DRESB
+Text GLabel 7700 4300 0    50   Input ~ 0
+CHNG
+Text GLabel 7700 4500 0    50   Input ~ 0
+5V
+Text GLabel 7700 2400 0    50   Input ~ 0
+SIDEB
+Text GLabel 7700 2600 0    50   Input ~ 0
+WPRO
+Text GLabel 7700 2800 0    50   Input ~ 0
+TK0
+Text GLabel 7700 3000 0    50   Input ~ 0
+DKWEB
+Text GLabel 7700 3200 0    50   Input ~ 0
+DKWDB
+Text GLabel 7700 3400 0    50   Input ~ 0
+STEPB
+Text GLabel 7700 3600 0    50   Input ~ 0
+DIRB
+Text GLabel 7700 3800 0    50   Input ~ 0
+SEL3B
+Text GLabel 7700 4000 0    50   Input ~ 0
+SEL1B
+Text GLabel 7700 4200 0    50   Input ~ 0
+INDEX
+Text GLabel 7700 4400 0    50   Input ~ 0
+12V
+Text GLabel 4800 2300 2    50   Input ~ 0
+RDY
+Text GLabel 4800 2400 2    50   Input ~ 0
+SIDEB
+Text GLabel 4800 2500 2    50   Input ~ 0
+DKRD
+Text GLabel 4800 2600 2    50   Input ~ 0
+WPRO
+Text GLabel 4800 2700 2    50   Input ~ 0
+GND
+Text GLabel 4800 2800 2    50   Input ~ 0
+TK0
+Text GLabel 4800 2900 2    50   Input ~ 0
+GND
+Text GLabel 4800 3000 2    50   Input ~ 0
+DKWEB
+Text GLabel 4800 3100 2    50   Input ~ 0
+GND
+Text GLabel 4800 3200 2    50   Input ~ 0
+DKWDB
+Text GLabel 4800 3300 2    50   Input ~ 0
+GND
+Text GLabel 4800 3400 2    50   Input ~ 0
+STEPB
+Text GLabel 4800 3500 2    50   Input ~ 0
+GND
+Text GLabel 4800 3600 2    50   Input ~ 0
+DIRB
+Text GLabel 4800 3700 2    50   Input ~ 0
+MTRXD
+Text GLabel 4800 3800 2    50   Input ~ 0
+SEL3B
+Text GLabel 4800 3900 2    50   Input ~ 0
+SEL2B
+Text GLabel 4800 4000 2    50   Input ~ 0
+SEL1B
+Text GLabel 4800 4100 2    50   Input ~ 0
+DRESB
+Text GLabel 4800 4200 2    50   Input ~ 0
+INDEX
+Text GLabel 4800 4300 2    50   Input ~ 0
+CHNG
+Text GLabel 4800 4400 2    50   Input ~ 0
+12V
+Text GLabel 4800 4500 2    50   Input ~ 0
+5V
+Text GLabel 2250 3550 1    50   Input ~ 0
+5V
+Text GLabel 2650 4300 1    50   Input ~ 0
+12V
+Text GLabel 1750 4300 1    50   Input ~ 0
+GND
+$Comp
+L power:+5V #PWR0101
+U 1 1 647C7BBF
+P 2250 3750
+F 0 "#PWR0101" H 2250 3600 50  0001 C CNN
+F 1 "+5V" H 2265 3923 50  0000 C CNN
+F 2 "" H 2250 3750 50  0001 C CNN
+F 3 "" H 2250 3750 50  0001 C CNN
+	1    2250 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR0102
+U 1 1 647C8485
+P 2650 4500
+F 0 "#PWR0102" H 2650 4350 50  0001 C CNN
+F 1 "+12V" H 2665 4673 50  0000 C CNN
+F 2 "" H 2650 4500 50  0001 C CNN
+F 3 "" H 2650 4500 50  0001 C CNN
+	1    2650 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 647C93FB
+P 1750 4500
+F 0 "#PWR0103" H 1750 4250 50  0001 C CNN
+F 1 "GND" H 1755 4327 50  0000 C CNN
+F 2 "" H 1750 4500 50  0001 C CNN
+F 3 "" H 1750 4500 50  0001 C CNN
+	1    1750 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 647D64E5
+P 2250 3650
+F 0 "#FLG0101" H 2250 3725 50  0001 C CNN
+F 1 "PWR_FLAG" V 2250 3778 50  0000 L CNN
+F 2 "" H 2250 3650 50  0001 C CNN
+F 3 "~" H 2250 3650 50  0001 C CNN
+	1    2250 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 647D720C
+P 2650 4400
+F 0 "#FLG0102" H 2650 4475 50  0001 C CNN
+F 1 "PWR_FLAG" V 2650 4528 50  0000 L CNN
+F 2 "" H 2650 4400 50  0001 C CNN
+F 3 "~" H 2650 4400 50  0001 C CNN
+	1    2650 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 647D77DB
+P 1750 4400
+F 0 "#FLG0103" H 1750 4475 50  0001 C CNN
+F 1 "PWR_FLAG" V 1750 4528 50  0000 L CNN
+F 2 "" H 1750 4400 50  0001 C CNN
+F 3 "~" H 1750 4400 50  0001 C CNN
+	1    1750 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 3550 2250 3650
+Connection ~ 2250 3650
+Wire Wire Line
+	2250 3650 2250 3750
+Wire Wire Line
+	1750 4300 1750 4400
+Connection ~ 1750 4400
+Wire Wire Line
+	1750 4400 1750 4500
+Wire Wire Line
+	2650 4300 2650 4400
+Connection ~ 2650 4400
+Wire Wire Line
+	2650 4400 2650 4500
+Text GLabel 6200 2650 0    50   Input ~ 0
+RDY
+Text GLabel 6200 2750 0    50   Input ~ 0
+SIDEB
+Text GLabel 6200 2850 0    50   Input ~ 0
+TK0
+Text GLabel 6200 2950 0    50   Input ~ 0
+GND
+Text GLabel 6200 3050 0    50   Input ~ 0
+GND
+Text GLabel 6200 3150 0    50   Input ~ 0
+GND
+Text GLabel 6200 3250 0    50   Input ~ 0
+STEPB
+Text GLabel 6200 3350 0    50   Input ~ 0
+DIRB
+Text GLabel 6200 3450 0    50   Input ~ 0
+GND
+Text GLabel 6200 3550 0    50   Input ~ 0
+GND
+NoConn ~ 6200 4150
+Text GLabel 6200 4050 0    50   Input ~ 0
+5V
+Text GLabel 6200 3650 0    50   Input ~ 0
+SEL2B
+Text GLabel 6200 3750 0    50   Input ~ 0
+SEL1B
+NoConn ~ 6200 3850
+NoConn ~ 6200 3950
+$Comp
+L Connector:DB23_Male-Connector J1
+U 1 1 64855AE5
+P 4500 3500
+F 0 "J1" H 4418 1983 50  0000 C CNN
+F 1 "DB23_Male-Connector" H 4418 2074 50  0000 C CNN
+F 2 "Connector_Dsub:DSUB-23_Male_EdgeMount_P2.77mm" H 4500 3300 50  0001 C CNN
+F 3 "" H 4500 3300 50  0001 C CNN
+	1    4500 3500
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
