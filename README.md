@@ -37,7 +37,7 @@ here you can find the mouser project with all the components, Db23 connectors ex
 * you can see [here](https://github.com/na103/7-drive/tree/main/img) the steps to follow to build the board.
 * gerber of the three board is inside kicad projects
 * switch in upper position show DF0 activity, down DF1
-* the 3d printed case project will be available soon
+* is avaible an optional 3d printed case. thanks to Roberto Camparini for stl file
 
 
 # License
